@@ -11,8 +11,7 @@ int main(){
             cout << abs(a-b) << " " <<min(a%abs(a-b), abs(a-b)-(a%abs(a-b)))<<endl;
         }
         else{
-            cout << "0 0"<<endl;
-        }
+            cout << "0 0"<<endl;}
     }
     return 0;
 }
